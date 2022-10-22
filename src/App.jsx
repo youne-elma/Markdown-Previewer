@@ -1,11 +1,8 @@
 import "./App.css";
+import Main from "./pages/main/index";
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Markdown Previewer</h1>
-    </div>
-  );
+  return <Main />;
 }
 
 export default App;
