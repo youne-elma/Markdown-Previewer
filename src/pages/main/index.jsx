@@ -9,7 +9,7 @@ function Main() {
           <div className="toolbar">
             <h4>Editor</h4>
           </div>
-          <textarea id="editor" type="text">
+          <textarea className="editor" id="editor" type="text">
             Test on This
           </textarea>
         </div>
@@ -17,7 +17,9 @@ function Main() {
           <div className="toolbar">
             <h4>Previewer</h4>
           </div>
-          <div id="preview">Test</div>
+          <div className="preview" id="preview">
+            Test
+          </div>
         </div>
       </div>
     </div>
