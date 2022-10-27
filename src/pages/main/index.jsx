@@ -1,6 +1,10 @@
+import { useState } from "react";
+import Preview from "../components/Preview/index";
 import "./main.scss";
 
 function Main() {
+  const [text, setText] = useState("");
+
   return (
     <div className="main">
       <h1 className="projectTitle">Markdown Previewer</h1>
@@ -9,18 +13,16 @@ function Main() {
           <div className="toolbar">
             <h4>Editor</h4>
           </div>
-          <textarea className="editor" id="editor" type="text">
-            Test on This
-          </textarea>
+          <textarea
+            name="text"
+            value={text}
+            onChange={(e) => setText(e.target.value)}
+            className="editor"
+            id="editor"
+            type="text"
+          />
         </div>
-        <div className="previewerWrap">
-          <div className="toolbar">
-            <h4>Previewer</h4>
-          </div>
-          <div className="preview" id="preview">
-            Test
-          </div>
-        </div>
+        <Preview markdown={text} />
       </div>
     </div>
   );
