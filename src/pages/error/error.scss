@@ -1,0 +1,34 @@
+.error-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 1rem;
+  .errorTitle {
+    background: rgba(43, 18, 18, 0.8);
+    border-radius: 12px;
+    padding: 1rem 4rem;
+    color: white;
+    transition: 0.5s all;
+  }
+  .goBackButton {
+    text-decoration: none;
+    background: rgba(43, 18, 18, 0.8);
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    transition: 0.5s all;
+  }
+  .goBackButton:hover,
+  .errorTitle:hover {
+    color: rgba(43, 18, 18, 0.8);
+    background-color: white;
+  }
+  .authorErrorPage {
+    color: #f3f3f3;
+    margin-top: 10vh;
+  }
+}
