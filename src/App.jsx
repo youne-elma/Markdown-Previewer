@@ -8,7 +8,7 @@ function App() {
     <Router>
       <Routes>
         <Route
-          path="markdown-previewer/"
+          path="Markdown-Previewer/"
           exact
           element={
             <div id="wrapper" className="main">
@@ -16,7 +16,7 @@ function App() {
             </div>
           }
         />
-        <Route path="markdown-previewer/*" element={<ErrorPage />} />
+        <Route path="Markdown-Previewer/*" element={<ErrorPage />} />
       </Routes>
     </Router>
   );
