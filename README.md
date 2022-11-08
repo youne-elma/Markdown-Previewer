@@ -4,7 +4,7 @@ This project is made with Html / Css / Sass / Reactjs
 
 This is a complete Markdown Previewer, fully optimized for desktop, with a great design made also by me in Figma [Markdown Previewer](https://www.figma.com/file/6YgPwAqTCrAl0QaUbV3ZVw/Markdown-Previewer?node-id=0%3A1)
 
-**Marked**: i used this marked library to convert the Markdown string into an HTML string (https://www.npmjs.com/package/marked) .
+**Marked**: i used this marked library to convert the Markdown string into an HTML string (https://www.npmjs.com/package/marked).
 
 > Main Page
 
